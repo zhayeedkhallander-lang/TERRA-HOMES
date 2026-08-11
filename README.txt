@@ -2,8 +2,8 @@ TERRA HOMES WEBSITE
 ====================
 
 Files:
-- index.html  : complete website
-- style.css   : responsive styling
+- Terra homes index.html  : complete website
+- terra homes style.css   : responsive styling
 
 HOW TO VIEW:
 1. Keep index.html and style.css in the same folder.
