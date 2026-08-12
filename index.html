@@ -24,11 +24,6 @@
     <a href="#properties">Properties</a>
     <a href="#contact">Contact Us</a>
     <section class="stats">
-<section class="who-we-are">
-    <h2>Who We Are</h2>
-    <p>Welcome to Terra Homes, your trusted real estate partner based in the heart of Indiranagar. With a legacy of excellence, we specialize in rental, sales, and land transactions across Indiranagar, Kaggadaspura, CV Raman Nagar, Mahadevpura, and Kasturinagar.</p>
-    <p>We have proudly closed over 300+ rental deals, and countless successful sales, ensuring each client finds the perfect fit. Our deep knowledge of these vibrant neighborhoods gives you access to the best listings, exclusive opportunities, and a seamless experience. At Terra Homes, we’re not just finding properties—we're creating lasting relationships and futures.</p>
-</section>
   </nav>
   <a class="btn btn-gold top-wa" href="https://wa.me/9187457200?text=Hi%20Terra%20Homes%2C%20I%27m%20interested%20in%20a%20property." target="_blank">WhatsApp Us</a>
 </header>
@@ -58,9 +53,11 @@
   <div class="about-img"></div>
   <div>
     <p class="eyebrow">ABOUT US</p>
+    <section class="who-we-are">
     <h2>Who We Are</h2>
-    <p>Terra Homes is a real estate company based in Kaggadaspura, Bangalore. We help clients with residential and commercial property rentals and sales.</p>
-    <p>Our focus is simple: clear communication, suitable properties and dependable support throughout the process.</p>
+    <p>Welcome to Terra Homes, your trusted real estate partner based in the heart of Indiranagar. With a legacy of excellence, we specialize in rental, sales, and land transactions across Indiranagar, Kaggadaspura, CV Raman Nagar, Mahadevpura, and Kasturinagar.</p>
+    <p>We have proudly closed over 300+ rental deals, and countless successful sales, ensuring each client finds the perfect fit. Our deep knowledge of these vibrant neighborhoods gives you access to the best listings, exclusive opportunities, and a seamless experience. At Terra Homes, we’re not just finding properties—we're creating lasting relationships and futures.</p>
+
     <div class="ticks"><span>✓ Honest communication</span><span>✓ Property guidance</span><span>✓ Customer-first service</span></div>
   </div>
 </section>
@@ -101,11 +98,11 @@
   <div class="contact-info">
     <p class="eyebrow">CONTACT US</p><h2>Get In Touch</h2>
     <p>Looking for a property or want to list one? Contact Terra Homes.</p>
-    <p>📍 Terra Homes, Near Polar Bear,<br>Vignan Nagar, Kaggadaspura,<br>Bangalore – 560093</p>
+    <p>📍 Terra Homes,NEAR URBAN LADER ,<br>100ft road, DOMLUR ,<br>Bangalore – 560093</p>
     <div class="people">
-      <a href="tel:+9187457200">9187457300</a>
-      <a href="tel:+9187457300">9187457200</a>
-      <a href="tel:+917411954003">74119 54003</a>
+      <a href="tel:+9187457200">📞 9187457300</a>
+      <a href="tel:+9187457300">📞 9187457200</a>
+      <a href="tel:+917411954003">📞 7411954003</a>
     </div>
   </div>
   <form id="contactForm" class="form">
@@ -122,6 +119,18 @@
   <iframe title="Terra Homes location" src="https://www.google.com/maps?q=Vignan%20Nagar%2C%20Kaggadaspura%2C%20Bangalore&output=embed" loading="lazy"></iframe>
 </section>
 </main>
+  <section class="comments">
+    <h2>Leave a Review</h2>
+    <form action="#" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="comment">Your Comment:</label>
+        <textarea id="comment" name="comment" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+</section>
 
 <footer><div><strong>TERRA HOMES</strong><p>Rental • Sale • Property Assistance</p></div><p>© <span id="year"></span> Terra Homes. All rights reserved.</p></footer>
 
@@ -144,18 +153,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   const message = document.getElementById('message').value;
   const text = `Hi Terra Homes,%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0ARequirement: ${encodeURIComponent(type)}%0AMessage: ${encodeURIComponent(message)}`;
   window.open('https://wa.me/9187457200?text=' + text, '_blank');
-  <section class="comments">
-    <h2>Leave a Review</h2>
-    <form action="#" method="POST">
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="comment">Your Comment:</label>
-        <textarea id="comment" name="comment" required></textarea>
-        
-        <button type="submit">Submit</button>
-    </form>
-</section>
+
 });
 </script>
 </body>
